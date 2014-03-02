@@ -1,0 +1,33 @@
+#login {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	margin: auto;
+	height: 50%;
+	/*display: inline-block;
+	vertical-align: middle;*/
+
+}
+
+footer {
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.navbar {
+	background-color: rgb(250, 157, 40);
+}
+
+.notification {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.menu {
+	background-color: rgba(0, 0, 0, 0.6);
+}
