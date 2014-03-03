@@ -25,7 +25,8 @@ footer {
 }
 
 .navbar {
-	background-color: #278FFF;
+	background-color: #1D60A8;
+	/*#278FFF;*/
 	/*#B1EC3A;*/
 	margin-bottom: 0px;
 	/*#AADD45;*/
@@ -42,6 +43,10 @@ footer {
 	background-color: #F8F8F8;
 	float: right;
 	margin: 2px;
+}
+
+.glyphicon {
+	color: #1D60A8;
 }
 
 .page-nav-item .glyphicon {
@@ -66,7 +71,7 @@ footer {
 }
 
 .page-container {
-	display: none;
+	margin: 30px;
 }
 
 .page-nav-home {
@@ -94,7 +99,8 @@ footer {
 
 .page-nav-home-item .glyphicon {
 	font-size: 75px;
-	color: #278FFF;
+	/*color: #1D60A8;*/
+	/*#278FFF;*/
 	/*#729B1F;*/
 }
 
@@ -127,4 +133,42 @@ footer {
 #page-nav-arrow-right {
 	left: auto;	
 	margin-right: 7px;
+}
+
+.groups-panel {
+	/*border: solid black 1px;*/
+	float: left;
+}
+
+#send-message {
+	/*border: solid black 1px;*/
+	margin-left: 30px;
+	float: left;
+	width: 60%;
+}
+
+.message-checkboxes {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#message-checkboxes-groups {
+	margin-left: 10px;
+}
+
+.message-recipients-panel {
+	margin-left: 10px;
+	float: left;
+}
+
+#messages-recipients-dropdown {
+	width: 450px;
+}
+
+#messages-select-recipients {
+	margin-left: 10px;
+}
+
+.input-group {
+	width: 250px;
 }

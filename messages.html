@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="lib/bootstrap-3.1.1-dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="thesis.css" />
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="lib/bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>	
+
+	<script src="nav.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">cool logo</a>
+			<span class="page-nav">
+				<button type="button" id="page-nav-item-home" class="page-nav-item btn btn-default">
+					<a href="home.html"><span class="glyphicon glyphicon-home"></span></a>	
+				</button>
+				<button type="button" id="page-nav-item-messages" class="page-nav-item btn btn-default">
+					<a href="messages.html"><span class="glyphicon glyphicon-comment"></span></a>
+				</button>
+				<button type="button" id="page-nav-item-calendar" class="page-nav-item btn btn-default">
+					<a href="calendar.html"><span class="glyphicon glyphicon-calendar"></span></a>
+				</button>
+				<button type="button" id="page-nav-item-people" class="page-nav-item btn btn-default">
+					<a href="people.html"><span class="glyphicon glyphicon-user"></span></a>
+				</button>			
+				<button type="button" id="page-nav-item-files" class="page-nav-item btn btn-default">
+					<a href="files.html"><span class="glyphicon glyphicon-folder-open"></span></a>
+				</button>
+				<button type="button" id="page-nav-item-wall" class="page-nav-item btn btn-default">
+					<a href="wall.html"><span class="glyphicon glyphicon-th-list"></span></a>
+				</button>
+			</span>
+			<button type="button" class="menu btn btn-default btn-lg">
+				<span class="glyphicon glyphicon-align-justify"></span>
+			</button>
+			<button type="button" class="notification btn btn-default btn-lg">
+				<span class="glyphicon glyphicon-exclamation-sign"></span>
+			</button>
+		</div>
+	</nav>
+
+	<div id="page-container-messages" class="page-container">
+		<div class="groups-panel">
+			<label class="groups-panel-title">My Groups</label>
+			<div class="checkbox">
+  				<label>
+				  <input type="checkbox" value="">Actives
+				</label>
+			</div>
+			<div class="checkbox">
+  				<label>
+				  <input type="checkbox" value="">Exec
+				</label>
+			</div>
+			<div class="checkbox">
+  				<label>
+				  <input type="checkbox" value="">LEAD Committee
+				</label>
+			</div>
+			<div class="checkbox">
+  				<label>
+				  <input type="checkbox" value="">Brotherhood Committee
+				</label>
+			</div>						
+		</div>
+		<div id="send-message">
+			<label id="send-message-title">Send a message</label>
+			<form role="form">
+				<textarea class="form-control" rows="3" placeholder="Type here..."></textarea>
+				<span class="message-checkboxes">
+	  				<label class="checkbox-inline">
+						<input type="checkbox" value="">Text
+					</label>
+	  				<label class="checkbox-inline">
+						<input type="checkbox" value="">Email
+					</label>
+	  				<label class="checkbox-inline">
+						<input type="checkbox" value="">Wall Post
+					</label>						
+				</span>
+				<div class="btn-group">
+					<button type="button" id="messages-select-recipients" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Select recipients 
+						<span class="caret"></span>
+						<span class="sr-only">Toggle Dropdown</span>
+					</button>
+					<ul id="messages-recipients-dropdown" class="dropdown-menu" role="menu">
+						<div id="message-checkboxes-groups" class="message-recipients-panel">
+							<div class="checkbox">
+				  				<label>
+								  <input type="checkbox" value="">Actives
+								</label>
+							</div>
+							<div class="checkbox">
+				  				<label>
+								  <input type="checkbox" value="">Exec
+								</label>
+							</div>
+							<div class="checkbox">
+				  				<label>
+								  <input type="checkbox" value="">LEAD Committee
+								</label>
+							</div>
+							<div class="checkbox">
+				  				<label>
+								  <input type="checkbox" value="">Brotherhood Committee
+								</label>
+							</div>	
+						</div>
+						<div id="messages-find-people" class="message-recipients-panel">
+						    <div class="input-group">
+      							<input type="text" class="form-control">
+      							<span class="input-group-btn">
+        							<button class="btn btn-default" type="button">Go!</button>
+      							</span>
+    						</div>
+							<div class="checkbox">
+				  				<label>
+								  <input type="checkbox" value="">Actives
+								</label>
+							</div>
+							<div class="checkbox">
+				  				<label>
+								  <input type="checkbox" value="">Exec
+								</label>
+							</div>
+						</div>
+  					</ul>
+				</div>
+			</form>	
+		</div>
+	</div>
+
+	<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+		<footer>Copyright Schragdaddy Studios 2014</footer>	
+	</nav>
+</body>
+</html>
