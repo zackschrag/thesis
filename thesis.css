@@ -1,3 +1,7 @@
+body {
+	background-color: #F8F8F8;
+}
+
 #login {
 	position: absolute;
 	top: 0px;
@@ -21,13 +25,106 @@ footer {
 }
 
 .navbar {
-	background-color: rgb(250, 157, 40);
+	background-color: #278FFF;
+	/*#B1EC3A;*/
+	margin-bottom: 0px;
+	/*#AADD45;*/
+	/*rgb(250, 157, 40);*/
 }
 
 .notification {
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: #F8F8F8;
+	float: right;
+	margin: 2px;
 }
 
 .menu {
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: #F8F8F8;
+	float: right;
+	margin: 2px;
+}
+
+.page-nav-item .glyphicon {
+	font-size: 25px;
+}
+
+.page-nav {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	width: 50%;
+	height: 40px;
+}
+
+.page-nav-item {
+	/*width: 40px;*/
+	height: 100%;
+	background-color: #F8F8F8;
+}
+
+.page-container {
+	display: none;
+}
+
+.page-nav-home {
+	/*border: solid black 1px;*/
+	width: 500px;
+	height: 315px;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	text-align: center;
+}
+
+.page-nav-home-item {
+	width: 150px;
+	height: 150px;
+	left: auto;
+	right: auto;
+	margin: 3px;
+	background-color: #F8F8F8;
+	/*float: left;*/
+}
+
+.page-nav-home-item .glyphicon {
+	font-size: 75px;
+	color: #278FFF;
+	/*#729B1F;*/
+}
+
+.page-nav-home-item-text {
+	margin-top: 12px;
+	font-size: 17px;	
+}
+
+.page-nav-arrow {
+	background-color: #F8F8F8;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	height: 100px;
+	width: 100px;
+}
+
+.page-nav-arrow .glyphicon {
+	font-size: 75px;
+}
+
+#page-nav-arrow-left {
+	right: auto;
+	margin-left: 7px;
+}
+
+#page-nav-arrow-right {
+	left: auto;	
+	margin-right: 7px;
 }
