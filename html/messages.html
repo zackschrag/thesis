@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../lib/bootstrap-3.1.1-dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="../css/thesis.css" />
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="../lib/bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>	
+
+	<script src="nav.js"></script>
+</head>
+<body>
+	<div class="navbar navbar-static-top" role="navigation">
+      	<div class="container">
+        	<div class="navbar-header">
+          		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		            <span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+          		</button>
+        	</div>
+		    <div class="navbar-collapse collapse">
+		        <div class="row">
+		        	<div class="col-md-12">
+		        		<div class="row">
+			        		<div class="col-xs-3 col-md-4">
+			   					<a class="navbar-brand" href="#">cool logo</a>
+			   				</div>
+			   				<div class="col-xs-6 col-md-4">
+				        		<div class="page-nav vertical-center">
+									<button type="button" id="page-nav-item-home" class="page-nav-item btn btn-default">
+										<a href="home.html"><span class="glyphicon glyphicon-home"></span></a>	
+									</button>
+									<button type="button" id="page-nav-item-messages" class="page-nav-item btn btn-default">
+										<a href="messages.html"><span class="glyphicon glyphicon-comment"></span></a>
+									</button>
+									<button type="button" id="page-nav-item-calendar" class="page-nav-item btn btn-default">
+										<a href="calendar.html"><span class="glyphicon glyphicon-calendar"></span></a>
+									</button>
+									<button type="button" id="page-nav-item-people" class="page-nav-item btn btn-default">
+										<a href="people.html"><span class="glyphicon glyphicon-user"></span></a>
+									</button>			
+									<button type="button" id="page-nav-item-files" class="page-nav-item btn btn-default">
+										<a href="files.html"><span class="glyphicon glyphicon-folder-open"></span></a>
+									</button>
+									<button type="button" id="page-nav-item-wall" class="page-nav-item btn btn-default">
+										<a href="activity.html"><span class="glyphicon glyphicon-th-list"></span></a>
+									</button>
+								</div>
+							</div>
+							<div class="col-xs-3 col-md-4">
+				          		<div class="navbar-right vertical-center">
+									<button type="button" class="menu btn btn-default btn-lg">
+										<span class="glyphicon glyphicon-align-justify"></span>
+									</button>
+									<button type="button" class="notification btn btn-default btn-lg">
+										<span class="glyphicon glyphicon-exclamation-sign"></span>
+									</button>
+				          		</div><!-- /.navbar-right -->
+			          		</div><!-- /.col-md -->
+			          	</div><!-- /.row inside -->
+			       	</div><!-- /.col-md-12 -->
+			   	</div><!-- /.row -->
+		    </div><!--/.nav-collapse -->
+      	</div><!-- /.container -->
+    </div><!-- /.navbar -->
+    <div class="container">
+	    <div class="row">
+	    	<div class="col-xs-3 col-sm-3 col-md-3">
+	    		<label class="panel-title">
+	    			Groups
+	    		</label>
+				<div class="checkbox">
+	  				<label>
+					  <input type="checkbox" value="">Actives
+					</label>
+				</div>
+				<div class="checkbox">
+	  				<label>
+					  <input type="checkbox" value="">Exec
+					</label>
+				</div>
+				<div class="checkbox">
+	  				<label>
+					  <input type="checkbox" value="">LEAD Committee
+					</label>
+				</div>
+				<div class="checkbox">
+	  				<label>
+					  <input type="checkbox" value="">Brotherhood Committee
+					</label>
+				</div>			
+		    </div>
+	    	<div class="col-xs-9 col-sm-9 col-md-9">
+	    		<label class="content-title">
+	    			Send a message
+	    		</label>
+	    		<form role="form">
+					<textarea class="form-control" rows="3" placeholder="Type here..."></textarea>
+					<span class="message-checkboxes">
+		  				<label class="checkbox-inline">
+							<input type="checkbox" value="">Text
+						</label>
+		  				<label class="checkbox-inline">
+							<input type="checkbox" value="">Email
+						</label>
+		  				<label class="checkbox-inline">
+							<input type="checkbox" value="">Wall Post
+						</label>						
+					</span>
+					<div class="select-recipients">
+						<div class="row">
+							<div class="col-xs-5 col-sm-5 col-md-5">
+								<h5>Groups</h5>
+								<div class="checkbox">
+					  				<label>
+									  <input type="checkbox" value="">Actives
+									</label>
+								</div>
+								<div class="checkbox">
+					  				<label>
+									  <input type="checkbox" value="">Exec
+									</label>
+								</div>
+								<div class="checkbox">
+					  				<label>
+									  <input type="checkbox" value="">LEAD Committee
+									</label>
+								</div>
+								<div class="checkbox">
+					  				<label>
+									  <input type="checkbox" value="">Brotherhood Committee
+									</label>
+								</div>	
+							</div>
+							<div class="col-xs-1 col-sm-1 col-md-1 vertical-line">
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-6">
+								<div class="input-group">
+								    <input type="text" class="form-control">
+								    <span class="input-group-btn">
+								       	<button class="btn btn-default" type="button">
+								       	<span class="glyphicon glyphicon-search"></span>
+								       	</button>
+								    </span>
+								</div><!-- /input-group -->
+								<div class="checkbox">
+					  				<label>
+									  <input type="checkbox" value="">Adam Johnson
+									</label>
+								</div>
+								<div class="checkbox">
+					  				<label>
+									  <input type="checkbox" value="">Adam Jameson
+									</label>
+								</div>
+								<div class="checkbox">
+					  				<label>
+									  <input type="checkbox" value="">Bob Barker
+									</label>
+								</div>
+								<div class="checkbox">
+					  				<label>
+									  <input type="checkbox" value="">Barack Obama
+									</label>
+								</div>		
+							</div>
+						</div><!-- /.row -->
+					</div>
+				</form>
+				<button type="button" class="send-message btn btn-default">
+					Send
+				</button>
+	    	</div>
+	    </div>
+    </div>
+</body>
+</html>

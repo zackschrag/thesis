@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../lib/bootstrap-3.1.1-dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="/thesis.css" />
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="../lib/bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>	
+
+	<script src="nav.js"></script>
+</head>
+<body>
+	<div class="navbar navbar-default navbar-static-top" role="navigation">
+      	<div class="container">
+        	<div class="navbar-header">
+          		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		            <span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+          		</button>
+          		<a class="navbar-brand" href="#">cool logo</a>
+        	</div>
+        	<div class="navbar-collapse collapse">
+        		<span class="page-nav">
+					<button type="button" id="page-nav-item-home" class="page-nav-item btn btn-default">
+						<a href="home.html"><span class="glyphicon glyphicon-home"></span></a>	
+					</button>
+					<button type="button" id="page-nav-item-messages" class="page-nav-item btn btn-default">
+						<a href="messages.html"><span class="glyphicon glyphicon-comment"></span></a>
+					</button>
+					<button type="button" id="page-nav-item-calendar" class="page-nav-item btn btn-default">
+						<a href="calendar.html"><span class="glyphicon glyphicon-calendar"></span></a>
+					</button>
+					<button type="button" id="page-nav-item-people" class="page-nav-item btn btn-default">
+						<a href="people.html"><span class="glyphicon glyphicon-user"></span></a>
+					</button>			
+					<button type="button" id="page-nav-item-files" class="page-nav-item btn btn-default">
+						<a href="files.html"><span class="glyphicon glyphicon-folder-open"></span></a>
+					</button>
+					<button type="button" id="page-nav-item-wall" class="page-nav-item btn btn-default">
+						<a href="wall.html"><span class="glyphicon glyphicon-th-list"></span></a>
+					</button>
+				</span>
+          		<div class="nav navbar-nav navbar-right">
+					<button type="button" class="menu btn btn-default btn-lg">
+						<span class="glyphicon glyphicon-align-justify"></span>
+					</button>
+					<button type="button" class="notification btn btn-default btn-lg">
+						<span class="glyphicon glyphicon-exclamation-sign"></span>
+					</button>
+          	</div>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+</body>
+</html>

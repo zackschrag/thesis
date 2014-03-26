@@ -1,0 +1,105 @@
+.row {
+	/*border: solid black 1px;*/
+}
+
+.page-nav {
+	/*background-color: rgba(0,0,0,0.5);*/
+}
+
+.navbar {
+	background-image: url('../img/greengradient.jpg');
+	box-shadow: 1px 1px 1px #000;
+}
+
+.navbar-brand {
+	color: #000;
+}
+
+.vertical-center {
+	line-height: 50px;
+	text-align: center;
+}
+
+.padding-home {
+	height: 190px;
+}
+
+.page-nav-home {
+	position: absolute;
+	max-width: 800px;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	text-align: center;
+}
+
+.page-nav-home-item {
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+	border-radius: 10px;
+}
+
+.page-nav-home-item .glyphicon {
+	font-size: 100px;
+}
+
+.page-nav-home-item-text {
+	margin-top: 12px;
+	font-size: 17px;	
+}
+
+.page-nav-item {
+}
+
+.page-nav-item .glyphicon {
+	font-size: 25px;
+	color: black;
+}
+
+.select-recipients {
+	padding: 8px;
+	margin-top: 10px;
+	border: solid #ccc 1px;
+	border-radius: 5px;
+}
+
+.vertical-line {
+	float: left;
+	height: 150px;
+	border-left: 1px solid #ccc;
+}
+
+.send-message {
+	margin-top: 5px;
+	text-align: center;
+}
+
+.activity-card {
+	margin-top: 13px;
+}
+
+.message-card-meta {
+	color: #8f8f8f;
+	font-size: 11px;
+}
+
+.activity-card .row {
+	border: solid 1px #ccc;
+	margin: 1px;
+}
+
+.message-card .row {
+
+}
+
+.message-card .message-text {
+	padding: 10px;
+	min-height: 50px;
+}
+
+.text-right {
+
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../lib/bootstrap-3.1.1-dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="../css/thesis.css" />
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="../lib/bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>	
+
+	<script src="nav.js"></script>
+</head>
+<body>
+	<div class="navbar navbar-static-top" role="navigation">
+      	<div class="container">
+        	<div class="navbar-header">
+          		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		            <span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+          		</button>
+        	</div>
+		    <div class="navbar-collapse collapse">
+		        <div class="row">
+		        	<div class="col-md-12">
+		        		<div class="row">
+			        		<div class="col-xs-3 col-md-4">
+			   					<a class="navbar-brand" href="#">cool logo</a>
+			   				</div>
+			   				<div class="col-xs-6 col-md-4">
+				        		<div class="page-nav vertical-center">
+									<button type="button" id="page-nav-item-home" class="page-nav-item btn btn-default">
+										<a href="home.html"><span class="glyphicon glyphicon-home"></span></a>	
+									</button>
+									<button type="button" id="page-nav-item-messages" class="page-nav-item btn btn-default">
+										<a href="messages.html"><span class="glyphicon glyphicon-comment"></span></a>
+									</button>
+									<button type="button" id="page-nav-item-calendar" class="page-nav-item btn btn-default">
+										<a href="calendar.html"><span class="glyphicon glyphicon-calendar"></span></a>
+									</button>
+									<button type="button" id="page-nav-item-people" class="page-nav-item btn btn-default">
+										<a href="people.html"><span class="glyphicon glyphicon-user"></span></a>
+									</button>			
+									<button type="button" id="page-nav-item-files" class="page-nav-item btn btn-default">
+										<a href="files.html"><span class="glyphicon glyphicon-folder-open"></span></a>
+									</button>
+									<button type="button" id="page-nav-item-wall" class="page-nav-item btn btn-default">
+										<a href="activity.html"><span class="glyphicon glyphicon-th-list"></span></a>
+									</button>
+								</div>
+							</div>
+							<div class="col-xs-3 col-md-4">
+				          		<div class="navbar-right vertical-center">
+									<button type="button" class="menu btn btn-default btn-lg">
+										<span class="glyphicon glyphicon-align-justify"></span>
+									</button>
+									<button type="button" class="notification btn btn-default btn-lg">
+										<span class="glyphicon glyphicon-exclamation-sign"></span>
+									</button>
+				          		</div><!-- /.navbar-right -->
+			          		</div><!-- /.col-md -->
+			          	</div><!-- /.row inside -->
+			       	</div><!-- /.col-md-12 -->
+			   	</div><!-- /.row -->
+		    </div><!--/.nav-collapse -->
+      	</div><!-- /.container -->
+    </div><!-- /.navbar -->
+    <div class="container">
+	    <div class="row">
+	    	<div class="col-xs-3 col-sm-3 col-md-3">
+	    		<label class="panel-title">
+	    			Groups
+	    		</label>
+	    		<div class="checkbox">
+	  				<label>
+					  <input type="checkbox" value="">Show all
+					</label>
+				</div>
+				<div class="checkbox">
+	  				<label>
+					  <input type="checkbox" value="">Actives
+					</label>
+				</div>
+				<div class="checkbox">
+	  				<label>
+					  <input type="checkbox" value="">Exec
+					</label>
+				</div>
+				<div class="checkbox">
+	  				<label>
+					  <input type="checkbox" value="">LEAD Committee
+					</label>
+				</div>
+				<div class="checkbox">
+	  				<label>
+					  <input type="checkbox" value="">Brotherhood Committee
+					</label>
+				</div>			
+		    </div>
+	    	<div class="col-xs-9 col-sm-9 col-md-9">
+	    		<label class="content-title">
+	    			Activity
+	    		</label>
+	    		<div class="row">
+	    			<div class="col-xs-12 col-sm-12 col-md-12">
+	    				<div class="activity-card message-card">
+	    		  			<div class="row">
+	    		  				<div class="message-info col-xs-12 col-sm-12 col-md-12">
+	    		  					<span class="message-card-meta">12:42pm</span>
+	    		  					<span class="message-card-meta text-right">Text | Email</span>
+	    		  				</div>
+	    		  			</div>
+	    		  			<div class="row">
+	    		  				<div class="message-text col-xs-12 col-sm-12 col-md-12">
+	    		  					Great work today guys!
+	    		  				</div>
+	    		  			</div>
+	    		  			<div class="row">
+	    		  				<div class="message-details col-xs-12 col-sm-12 col-md-12">
+	    		  					<span class="message-card-meta">Joe Shmoe | Actives | Exec</span>
+	    		  				</div>
+	    		  			</div>
+	    				</div>
+	    			</div>
+	    		</div>
+	    		<div class="row">
+	    			<div class="col-xs-12 col-sm-12 col-md-12">
+	    				<div class="activity-card message-card">
+	    		  			<div class="row">
+	    		  				<div class="message-info col-xs-12 col-sm-12 col-md-12">
+	    		  					<span class="message-card-meta">3/9/14 - 9:02pm</span>
+	    		  					<span class="message-card-meta text-right">Text</span>
+	    		  				</div>
+	    		  			</div>
+	    		  			<div class="row">
+	    		  				<div class="message-text col-xs-12 col-sm-12 col-md-12">
+	    		  					Comittee Meeting for LEAD @ 4:30pm in the libarary. There is so much text in this message that the card is going to get larger. Holy moly I'm super fascinated by the message ahhhhhhh. I just can't stop typing on here this is crazzzyy.
+	    		  				</div>
+	    		  			</div>
+	    		  			<div class="row">
+	    		  				<div class="message-details col-xs-12 col-sm-12 col-md-12">
+	    		  					<span class="message-card-meta">Mike Williams | LEAD Committee | Exec</span>
+	    		  				</div>
+	    		  			</div>
+	    				</div>
+	    			</div>
+	    		</div>
+	    		<div class="row">
+	    			<div class="col-xs-12 col-sm-12 col-md-12">
+	    				<div class="activity-card message-card">
+	    		  			<div class="row">
+	    		  				<div class="message-info col-xs-12 col-sm-12 col-md-12">
+									<span class="message-card-meta">3/8/14 10:00pm</span>
+	    		  					<span class="message-card-meta text-right">Email</span>
+	    		  				</div>
+	    		  			</div>
+	    		  			<div class="row">
+	    		  				<div class="message-text col-xs-12 col-sm-12 col-md-12">
+	    		  					This is a really interesting email.
+	    		  				</div>
+	    		  			</div>
+	    		  			<div class="row">
+	    		  				<div class="message-details col-xs-12 col-sm-12 col-md-12">
+	    		  					<span class="message-card-meta">LeBron James</span>
+	    		  				</div>
+	    		  			</div>
+	    				</div>
+	    			</div>
+	    		</div>
+	    		<div class="row">
+	    			<div class="col-xs-12 col-sm-12 col-md-12">
+	    				<div class="activity-card message-card">
+	    		  			<div class="row">
+	    		  				<div class="message-info col-xs-12 col-sm-12 col-md-12">
+									<span class="message-card-meta">3/5/14 3:13pm</span>
+	    		  					<span class="message-card-meta text-right"></span>
+	    		  				</div>
+	    		  			</div>
+	    		  			<div class="row">
+	    		  				<div class="message-text col-xs-12 col-sm-12 col-md-12">
+	    		  					This is an even interesting-er wall post.
+	    		  				</div>
+	    		  			</div>
+	    		  			<div class="row">
+	    		  				<div class="message-details col-xs-12 col-sm-12 col-md-12">
+	    		  					<span class="message-card-meta">Kobe Bryant</span>
+	    		  				</div>
+	    		  			</div>
+	    				</div>
+	    			</div>
+	    		</div>
+	    		<div class="row">
+	    			<div class="col-xs-12 col-sm-12 col-md-12">
+	    				<div class="activity-card">
+	    		  			<div class="row">
+	    		  				<div class="message-info col-xs-12 col-sm-12 col-md-12">
+									<span class="message-card-meta">3/2/14 1:45pm</span>
+	    		  					<span class="message-card-meta text-right"></span>
+	    		  				</div>
+	    		  			</div>
+	    		  			<div class="row">
+	    		  				<div class="message-text col-xs-12 col-sm-12 col-md-12">
+	    		  					<a href="#">Billy Bob</a> created a new event: <a href="#">Brotherhood Retreat</a>
+	    		  				</div>
+	    		  			</div>
+	    				</div>
+	    			</div>
+	    		</div>
+	    		<div class="row">
+	    			<div class="col-xs-12 col-sm-12 col-md-12">
+	    				<div class="activity-card">
+	    		  			<div class="row">
+	    		  				<div class="message-info col-xs-12 col-sm-12 col-md-12">
+									<span class="message-card-meta">3/2/14 1:42pm</span>
+	    		  					<span class="message-card-meta text-right"></span>
+	    		  				</div>
+	    		  			</div>
+	    		  			<div class="row">
+	    		  				<div class="message-text col-xs-12 col-sm-12 col-md-12">
+	    		  					<a href="#">John Doe</a> uploaded <a href="#">minutes.docx</a> to the <a href="#">Actives</a> folder.
+	    		  				</div>
+	    		  			</div>
+	    				</div>
+	    			</div>
+	    		</div>	    		
+	    	</div>
+	    </div>
+    </div>
+</body>
+</html>
