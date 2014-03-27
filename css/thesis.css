@@ -1,3 +1,7 @@
+a:hover {
+	text-decoration: none;
+}
+
 .row {
 	/*border: solid black 1px;*/
 }
@@ -21,6 +25,15 @@
 
 .padding-home {
 	height: 190px;
+	margin: 0;
+	padding: 0;
+}
+
+.menu {
+}
+
+.menu .glyphicon {
+	font-size: 17px;
 }
 
 .page-nav-home {
@@ -43,6 +56,7 @@
 
 .page-nav-home-item .glyphicon {
 	font-size: 100px;
+	color: #000;
 }
 
 .page-nav-home-item-text {
@@ -55,7 +69,7 @@
 
 .page-nav-item .glyphicon {
 	font-size: 25px;
-	color: black;
+	color: #000;
 }
 
 .select-recipients {
