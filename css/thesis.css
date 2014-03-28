@@ -12,6 +12,9 @@ a:hover {
 
 .navbar {
 	background-image: url('../img/greengradient.jpg');
+	/*#5AD48B*/
+	/*#50D837*/
+	box-shadow: 1px 1px 1px #000;
 }
 
 .navbar-brand {
@@ -52,6 +55,14 @@ a:hover {
 	height: 200px;
 	margin: 5px;
 	border-radius: 10px;
+	box-shadow: 1px 1px #000;
+	background-image: url('../img/greengradientlarge.jpg');
+	background-repeat: repeat-x;
+}
+
+.page-nav-home-item:hover {
+	background-image: none;
+	background-color: #5ECE5A;
 }
 
 .page-nav-home-item .glyphicon {
