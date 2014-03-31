@@ -2,6 +2,18 @@ a:hover {
 	text-decoration: none;
 }
 
+.btn-primary {
+	background-color: #84E277;
+	border: #84E277;
+	color: #000;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+	color: #fff;
+	background-color: #67BB5B;
+	border-color: #67BB5B;
+}
+
 .row {
 	/*border: solid black 1px;*/
 }
@@ -11,14 +23,27 @@ a:hover {
 }
 
 .navbar {
-	background-image: url('../img/greengradient.jpg');
+	/*background-image: url('../img/greengradient.jpg');*/
+	background-color: #84E277;
+	/*#78DE6A;*/
+	/*#58DB76;*/
 	/*#5AD48B*/
 	/*#50D837*/
 	box-shadow: 1px 1px 1px #000;
 }
 
+.navbar-inner {
+	box-shadow: none;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
 .navbar-brand {
 	color: #000;
+}
+
+.checkbox {
 }
 
 .vertical-center {
@@ -136,6 +161,10 @@ a:hover {
 
 }
 
+.calendar {
+	
+}
+
 .calendar-day {
 	height: 160px;
 	width: 13%;
@@ -160,6 +189,13 @@ a:hover {
 	text-align: center;
 	font-size: 17px;
 	font-weight: bold;
+	margin-left: -50px;
+}
+
+.calendar-nav-arrow {
+	font-size: 12px;
+	margin: 5px;
+	cursor: pointer;
 }
 
 .current-month {
@@ -189,4 +225,12 @@ a:hover {
 
 .groups-exec {
 	color: #DD9F00;
+}
+
+.modal-title {
+	text-align: center;
+}
+
+.modal-actions {
+	margin-top: 3px;
 }

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../lib/bootstrap-3.1.1-dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="../css/thesis.css" />
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="../lib/bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>	
+</head>
+<body>
+	<div class="navbar navbar-static-top" role="navigation">
+      	<div class="container">
+		    <div class="navbar navbar-inner">
+		        <div class="row">
+		        	<div class="col-xs-12 col-sm-12 col-md-12">
+		        		<div class="row">
+			        		<div class="col-xs-3 col-sm-3 col-md-3">
+			   					<a class="navbar-brand" href="#">cool logo</a>
+			   				</div>
+			   				<div class="col-xs-6 col-sm-6 col-md-6">
+				        		<div class="page-nav vertical-center">
+									<a href="home.html">
+										<button type="button" id="page-nav-item-home" class="page-nav-item btn btn-default">
+											<span class="glyphicon glyphicon-home"></span>
+										</button>
+									</a>	
+
+									<a href="messages.html">
+										<button type="button" id="page-nav-item-messages" class="page-nav-item btn btn-default">
+											<span class="glyphicon glyphicon-comment"></span>
+										</button>
+									</a>
+									
+									<a href="calendar.html">
+										<button type="button" id="page-nav-item-calendar" class="page-nav-item btn btn-default">
+											<span class="glyphicon glyphicon-calendar"></span>
+										</button>
+									</a>
+
+									<a href="people.html">
+										<button type="button" id="page-nav-item-people" class="page-nav-item btn btn-default">
+											<span class="glyphicon glyphicon-user"></span>
+										</button>			
+									</a>
+
+									<a href="files.html">
+										<button type="button" id="page-nav-item-files" class="page-nav-item btn btn-default">
+											<span class="glyphicon glyphicon-folder-open"></span>
+										</button>
+									</a>
+
+									<a href="activity.html">
+										<button type="button" id="page-nav-item-activity" class="page-nav-item btn btn-default">
+											<span class="glyphicon glyphicon-th-list"></span>
+										</button>
+									</a>
+								</div>
+							</div>
+							<div class="col-xs-3 col-sm-3 col-md-3">
+				          		<div class="navbar-right vertical-center">
+									<button type="button" class="menu btn btn-default btn-lg">
+										<span class="glyphicon glyphicon-align-justify"></span>
+									</button>
+									<button type="button" class="menu notification btn btn-default btn-lg">
+										<span class="glyphicon glyphicon-exclamation-sign">
+										</span>
+									</button>
+				          		</div><!-- /.navbar-right -->
+			          		</div><!-- /.col-md -->
+			          	</div><!-- /.row inside -->
+			       	</div><!-- /.col-md-12 -->
+			   	</div><!-- /.row -->
+		    </div><!--/.nav-collapse -->
+      	</div><!-- /.container -->
+    </div><!-- /.navbar -->
+    <div class="container">
+	    <div class="row">
+	    	<div class="col-xs-3 col-sm-3 col-md-3">
+	    		<label class="panel-title">
+	    			Groups
+	    		</label>
+	    		<div class="checkbox">
+	  				<label>
+					  <input type="checkbox" class="show-all" value="">Show all
+					</label>
+				</div>
+				<div class="checkbox">
+	  				<label>
+					  <input type="checkbox" value="">Actives
+					</label>
+				</div>
+				<div class="checkbox">
+	  				<label>
+					  <input type="checkbox" value="">Exec
+					</label>
+				</div>
+				<div class="checkbox">
+	  				<label>
+					  <input type="checkbox" value="">LEAD Committee
+					</label>
+				</div>
+				<div class="checkbox">
+	  				<label>
+					  <input type="checkbox" value="">Brotherhood Committee
+					</label>
+				</div>			
+		    </div>
+	    	<div class="col-xs-9 col-sm-9 col-md-9">
+				<table class="table table-hover">
+  					<thead>
+  						<th>Name</th>
+  						<th>Year</th>
+  						<th>Email</th>
+  						<th>Phone #</th>
+  						<th>Groups</th>
+  					</thead>
+  					<tbody>
+  						<tr>
+  							<td>Adam Smith</td>	
+  							<td>Senior</td>
+  							<td>adam.smith@yahoo.com</td>
+  							<td>970-111-111</td>
+  							<td>
+  								<div class="btn-group">
+  								    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+  								    	View
+      									<span class="caret"></span>
+    								</button>
+	  								<ul class="dropdown-menu">
+	      								<li><a href="#">Actives</a></li>
+	      								<li><a href="#">Brotherhood Committee</a></li>
+	    							</ul>
+    							</div>
+  							</td>
+  						</tr>
+  						<tr>
+  							<td>Brody Beowulf</td>	
+  							<td>Freshman</td>
+  							<td>bbwolf@gmail.com</td>
+  							<td>970-432-1234</td>
+  							<td>
+  								<div class="btn-group">
+  								    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+  								    	View
+      									<span class="caret"></span>
+    								</button>
+	  								<ul class="dropdown-menu">
+	      								<li><a href="#">Candidates</a></li>
+	      								<li><a href="#">LEAD Committee</a></li>
+	    							</ul>
+    							</div>
+  							</td>
+  						</tr>
+  						<tr>
+  							<td>Captain Sparrow</td>	
+  							<td>Sophomore</td>
+  							<td>sparrowjack@msn.com</td>
+  							<td>421-987-6461</td>
+  							<td>
+  								<div class="btn-group">
+  								    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+  								    	View
+      									<span class="caret"></span>
+    								</button>
+	  								<ul class="dropdown-menu">
+	      								<li><a href="#">Candidates</a></li>
+	    							</ul>
+    							</div>
+  							</td>
+  						</tr>
+  						<tr>
+  							<td>Draco Malfoy</td>	
+  							<td>Junior</td>
+  							<td>draco@yahoo.com</td>
+  							<td>345-456-1111</td>
+  							<td>
+  								<div class="btn-group">
+  								    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+  								    	View
+      									<span class="caret"></span>
+    								</button>
+	  								<ul class="dropdown-menu">
+	      								<li><a href="#">Actives</a></li>
+	      								<li><a href="#">Exec</a></li>
+	    							</ul>
+    							</div>
+  							</td>
+  						</tr>
+  						<tr>
+  							<td>Ron Weasley</td>	
+  							<td>Junior</td>
+  							<td>weasle@yahoo.com</td>
+  							<td>980-348-4789</td>
+  							<td>
+  								<div class="btn-group">
+  								    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+  								    	View
+      									<span class="caret"></span>
+    								</button>
+	  								<ul class="dropdown-menu">
+	      								<li><a href="#">Actives</a></li>
+	      								<li><a href="#">Exec</a></li>
+	    							</ul>
+    							</div>
+  							</td>
+  						</tr>
+  						<tr>
+  							<td>Harry Potter</td>	
+  							<td>Junior</td>
+  							<td>potter@gmail.com</td>
+  							<td>786-845-3432</td>
+  							<td>
+  								<div class="btn-group">
+  								    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+  								    	View
+      									<span class="caret"></span>
+    								</button>
+	  								<ul class="dropdown-menu">
+	      								<li><a href="#">Actives</a></li>
+	      								<li><a href="#">Philanthropy Committee</a></li>
+	      								<li><a href="#">Exec</a></li>
+	    							</ul>
+    							</div>
+  							</td>
+  						</tr>
+  						<tr>
+  							<td>Hermione Granger</td>	
+  							<td>Junior</td>
+  							<td>hgranger@yahoo.com</td>
+  							<td>492-587-0000</td>
+  							<td>
+  								<div class="btn-group">
+  								    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+  								    	View
+      									<span class="caret"></span>
+    								</button>
+	  								<ul class="dropdown-menu">
+	      								<li><a href="#">Actives</a></li>
+	      								<li><a href="#">Exec</a></li>
+	    							</ul>
+    							</div>
+  							</td>
+  						</tr>  						  						  						
+  					</tbody>
+				</table>
+	    	</div>
+	    </div>
+    </div>
+</body>
+</html>

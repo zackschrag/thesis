@@ -10,27 +10,18 @@
 	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="../lib/bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>	
 
-	<script src="nav.js"></script>
 </head>
 <body>
 	<div class="navbar navbar-static-top" role="navigation">
       	<div class="container">
-        	<div class="navbar-header">
-          		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-		            <span class="sr-only">Toggle navigation</span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-          		</button>
-        	</div>
-		    <div class="navbar-collapse collapse">
+		    <div class="navbar navbar-inner">
 		        <div class="row">
-		        	<div class="col-md-12">
+		        	<div class="col-xs-12 col-sm-12 col-md-12">
 		        		<div class="row">
-			        		<div class="col-xs-3 col-md-4">
+			        		<div class="col-xs-3 col-sm-3 col-md-3">
 			   					<a class="navbar-brand" href="#">cool logo</a>
 			   				</div>
-			   				<div class="col-xs-6 col-md-4">
+			   				<div class="col-xs-6 col-sm-6 col-md-6">
 				        		<div class="page-nav vertical-center">
 									<a href="home.html">
 										<button type="button" id="page-nav-item-home" class="page-nav-item btn btn-default">
@@ -69,13 +60,14 @@
 									</a>
 								</div>
 							</div>
-							<div class="col-xs-3 col-md-4">
+							<div class="col-xs-3 col-sm-3 col-md-3">
 				          		<div class="navbar-right vertical-center">
 									<button type="button" class="menu btn btn-default btn-lg">
 										<span class="glyphicon glyphicon-align-justify"></span>
 									</button>
-									<button type="button" class="notification btn btn-default btn-lg">
-										<span class="glyphicon glyphicon-exclamation-sign"></span>
+									<button type="button" class="menu notification btn btn-default btn-lg">
+										<span class="glyphicon glyphicon-exclamation-sign">
+										</span>
 									</button>
 				          		</div><!-- /.navbar-right -->
 			          		</div><!-- /.col-md -->
@@ -88,7 +80,7 @@
     <div class="container">
     	<div class="container">
 	    <div class="row">
-	    	<div class="col-xs-3 col-sm-3 col-md-3">
+	    	<div class="col-md-3">
 	    		<label class="panel-title">
 	    			Groups
 	    		</label>
@@ -118,130 +110,256 @@
 					</label>
 				</div>			
 		    </div>
-	    	<div class="col-xs-9 col-sm-9 col-md-9">
+	    	<div class="col-md-9">
 	    		<label class="content-title">
 	    			Calendar
 	    		</label>
-	    		<div class="calendar-month">April</div>
-	    		<br/>
-	    		<div class="calendar-day">
-	    			<span class="day-number">30</span>
-	    		</div>
-	    		<div class="calendar-day">
-	    			<span class="day-number">31</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">1</span>
-	    			<div class="calendar-event groups-exec">
-	    				<span class="calendar-event-time">3:00pm</span>
-	    				<span class="calendar-event-name">Exec</span>
-	    			</div>	    				    			
-	    			<div class="calendar-event groups-all">
-	    				<span class="calendar-event-time">7:00pm</span>
-	    				<span class="calendar-event-name">Chapter Meeting</span>
-	    			</div>
-	    			<div class="calendar-event groups-actives">
-	    				<span class="calendar-event-time">9:00pm</span>
-	    				<span class="calendar-event-name">LEAD Session</span>
-	    			</div>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">2</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">3</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">4</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">5</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">6</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">7</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">8</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">9</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">10</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">11</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">12</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">13</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">14</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">15</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">16</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">17</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">18</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">19</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">20</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">21</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">22</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">23</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">24</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">25</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">26</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">27</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">28</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">29</span>
-	    		</div>
-	    		<div class="calendar-day current-month">
-	    			<span class="day-number">30</span>
-	    		</div>
-	    		<div class="calendar-day">
-	    			<span class="day-number">1</span>
-	    		</div>
-	    		<div class="calendar-day">
-	    			<span class="day-number">2</span>
-	    		</div>
-	    		<div class="calendar-day">
-	    			<span class="day-number">3</span>
-	    		</div>
+	    		<div class="calendar">
+		    		<div class="calendar-month">
+		    			<span class="calendar-nav-arrow glyphicon glyphicon-chevron-left"></span>
+		    			April
+		    			<span class="calendar-nav-arrow glyphicon glyphicon-chevron-right"></span>
+		    		</div>
+
+		    		<div class="calendar-day">
+		    			<span class="day-number">30</span>
+		    		</div>
+		    		<div class="calendar-day" data-toggle="modal" data-target="#3-31-2014">
+		    			<span class="day-number">31</span>
+		    			<div class="calendar-event groups-all">
+		    				<span class="calendar-event-time">7:00pm</span>
+		    				<span class="calendar-event-name">Chapter Meeting</span>
+		    			</div>
+		    			<div class="calendar-event groups-actives">
+		    				<span class="calendar-event-time">9:00pm</span>
+		    				<span class="calendar-event-name">LEAD Session</span>
+		    			</div>
+		    		</div>
+		    		<div class="modal fade" id="3-31-2014" tabindex="-1" role="dialog" aria-labelledby="March 31st, 2014" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+						    	<div class="modal-header">
+						        	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						        	<h4 class="modal-title" id="modal-3-31-2014">3/31/2014</h4>
+						      	</div>
+						      	<!--<div>
+						      	<div class="btn-group pull-right modal-actions">
+						  				    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+						  				    	Actions
+						      					<span class="caret"></span>
+						    				</button>
+							  				<ul class="dropdown-menu">
+							      				<li><a href="#">Add event</a></li>
+							      				<li><a href="#">Edit event</a></li>
+							      				<li><a href="#">Delete event</a></li>
+							    			</ul>
+						    			</div>
+						    	</div>-->
+						      	<div class="modal-body">
+						      		<div class="panel-group" id="accordion-3-31-2014-event1">
+						      			<div class="panel panel-default">
+						      				<div class="panel-heading">
+						      					<h4 class="panel-title">
+						      						<a data-toggle="collapse" data-parent="#accordion-3-31-2014" href="#collapse-3-31-2014-event1">
+          												<div class="calendar-event groups-all">
+									    					<span class="calendar-event-time">7:00pm</span>
+									    					<span class="calendar-event-name">Chapter Meeting</span>
+									    				</div>
+        											</a>
+						      					</h4>
+						      				</div>
+						      				<div id="collapse-3-31-2014-event1" class="panel-collapse collapse in">
+						      					<div class="panel-body">
+						      						<label>Location: </label>
+						      						<span>Clark C146</span>
+						      						<div>We are going over bylaws today.</div>
+						      					</div>
+						      				</div>
+						      			</div>
+						      			<div class="panel panel-default">
+						      				<div class="panel-heading">
+						      					<h4 class="panel-title">
+						      						<a data-toggle="collapse" data-parent="#accordion-3-31-2014-event2" href="#collapse-3-31-2014-event2">
+          												<div class="calendar-event groups-actives">
+									    					<span class="calendar-event-time">9:00pm</span>
+									    					<span class="calendar-event-name">LEAD Session</span>
+									    				</div>
+        											</a>
+						      					</h4>
+						      				</div>
+						      				<div id="collapse-3-31-2014-event2" class="panel-collapse collapse in">
+						      					<div class="panel-body">
+						      						<label>Location: </label>
+						      						<span>LSC 228</span>
+						      						<div>Resume building LEAD session.</div>
+						      					</div>
+						      				</div>
+						      			</div>
+						      		</div>
+						      	</div>
+						      	<div class="modal-footer">
+						        	<button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+						      	</div>
+						    </div>
+						</div>
+					</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">1</span>  				    			
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">2</span>
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">3</span>
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">4</span>
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">5</span>
+		    			<div class="calendar-event groups-all">
+		    				<span class="calendar-event-time">10:00am</span>
+		    				<span class="calendar-event-name">CSUnity</span>
+		    			</div>	
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">6</span>
+		    			<div class="calendar-event groups-exec">
+		    				<span class="calendar-event-time">7:00pm</span>
+		    				<span class="calendar-event-name">Exec</span>
+		    			</div>	
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">7</span>
+		    			<div class="calendar-event groups-all">
+		    				<span class="calendar-event-time">7:00pm</span>
+		    				<span class="calendar-event-name">Chapter Meeting</span>
+		    			</div>
+		    			<div class="calendar-event groups-actives">
+		    				<span class="calendar-event-time">9:00pm</span>
+		    				<span class="calendar-event-name">LEAD Session</span>
+		    			</div>
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">8</span>
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">9</span>
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">10</span>
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">11</span>
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">12</span>
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">13</span>
+		    			<div class="calendar-event groups-exec">
+		    				<span class="calendar-event-time">7:00pm</span>
+		    				<span class="calendar-event-name">Exec</span>
+		    			</div>	
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">14</span>
+		    			<div class="calendar-event groups-all">
+		    				<span class="calendar-event-time">7:00pm</span>
+		    				<span class="calendar-event-name">Chapter Meeting</span>
+		    			</div>
+		    			<div class="calendar-event groups-actives">
+		    				<span class="calendar-event-time">9:00pm</span>
+		    				<span class="calendar-event-name">LEAD Session</span>
+		    			</div>
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">15</span>
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">16</span>
+		    			<div class="calendar-event groups-all">
+		    				<span class="calendar-event-time">7:00pm</span>
+		    				<span class="calendar-event-name">Social</span>
+		    			</div>
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">17</span>
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">18</span>
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">19</span>
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">20</span>
+		    			<div class="calendar-event groups-exec">
+		    				<span class="calendar-event-time">7:00pm</span>
+		    				<span class="calendar-event-name">Exec</span>
+		    			</div>	
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">21</span>
+		    			<div class="calendar-event groups-all">
+		    				<span class="calendar-event-time">7:00pm</span>
+		    				<span class="calendar-event-name">Chapter Meeting</span>
+		    			</div>
+		    			<div class="calendar-event groups-actives">
+		    				<span class="calendar-event-time">9:00pm</span>
+		    				<span class="calendar-event-name">LEAD Session</span>
+		    			</div>
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">22</span>
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">23</span>
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">24</span>
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">25</span>
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">26</span>
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">27</span>
+		    			<div class="calendar-event groups-exec">
+		    				<span class="calendar-event-time">7:00pm</span>
+		    				<span class="calendar-event-name">Exec</span>
+		    			</div>	
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">28</span>
+		    			<div class="calendar-event groups-all">
+		    				<span class="calendar-event-time">7:00pm</span>
+		    				<span class="calendar-event-name">Chapter Meeting</span>
+		    			</div>
+		    			<div class="calendar-event groups-actives">
+		    				<span class="calendar-event-time">9:00pm</span>
+		    				<span class="calendar-event-name">LEAD Session</span>
+		    			</div>
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">29</span>
+		    		</div>
+		    		<div class="calendar-day current-month">
+		    			<span class="day-number">30</span>
+		    		</div>
+		    		<div class="calendar-day">
+		    			<span class="day-number">1</span>
+		    		</div>
+		    		<div class="calendar-day">
+		    			<span class="day-number">2</span>
+		    		</div>
+		    		<div class="calendar-day">
+		    			<span class="day-number">3</span>
+		    		</div>
 	    		<!--<iframe src="https://www.google.com/calendar/embed?title=Calendar&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=zackschrag%40gmail.com&amp;color=%232F6309&amp;ctz=America%2FDenver" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
+	    		</div>
 	    	</div>
 
 	    </div>
