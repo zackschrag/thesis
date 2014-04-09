@@ -15,6 +15,9 @@ a:hover {
 	border-color: #67BB5B;
 }
 
+.logo {
+	margin-left: 10px;
+}
 .row {
 	/*border: solid black 1px;*/
 }
@@ -42,6 +45,7 @@ a:hover {
 
 .navbar-brand {
 	color: #000;
+	padding: 3px;
 }
 
 .checkbox {
