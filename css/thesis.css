@@ -57,7 +57,7 @@ a:hover {
 }
 
 .padding-home {
-	height: 190px;
+	height: 13vh;
 	margin: 0;
 	padding: 0;
 }
@@ -139,6 +139,10 @@ a:hover {
 	text-align: center;
 }
 
+#see-message-history {
+	margin-top: 13px;
+}
+
 .activity-card {
 	margin-top: 13px;
 }
@@ -146,6 +150,7 @@ a:hover {
 .message-card-meta {
 	color: #8f8f8f;
 	font-size: 11px;
+	line-height: 20px;
 }
 
 .activity-card .row {
@@ -253,4 +258,37 @@ a:hover {
 
 .modal-actions {
 	margin-top: 3px;
+}
+
+.files-below {
+	padding: 5px;
+}
+
+.doc {
+	color: #3678D6;
+}
+
+.pdf {
+	color: #FF1C1C;
+}
+
+.xls {
+	color: #27B814;
+
+}
+
+.file-text {
+	color: black;
+}
+
+.panel-body {
+	padding: 5px;
+}
+
+.panel-group {
+	margin-bottom: 0px;
+}
+
+.panel-heading {
+	padding: 5px 5px;
 }

@@ -9,6 +9,8 @@
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="../lib/bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>	
+
+	<script src="../js/people.js"></script>
 </head>
 <body>
 	<div class="navbar navbar-static-top" role="navigation">
@@ -84,29 +86,29 @@
 	    		<label class="panel-title">
 	    			Groups
 	    		</label>
-	    		<div class="checkbox">
+	    		<!--<div class="checkbox">
 	  				<label>
-					  <input type="checkbox" class="show-all" value="">Show all
+					  <input id="people-show-all" type="checkbox" class="show-all" value="">Show all
+					</label>
+				</div>-->
+				<div class="checkbox">
+	  				<label>
+					  <input id="people-show-actives" type="checkbox" value="">Actives
 					</label>
 				</div>
 				<div class="checkbox">
 	  				<label>
-					  <input type="checkbox" value="">Actives
+					  <input id="people-show-exec" type="checkbox" value="">Exec
 					</label>
 				</div>
 				<div class="checkbox">
 	  				<label>
-					  <input type="checkbox" value="">Exec
+					  <input id="people-show-lead" type="checkbox" value="">LEAD Committee
 					</label>
 				</div>
 				<div class="checkbox">
 	  				<label>
-					  <input type="checkbox" value="">LEAD Committee
-					</label>
-				</div>
-				<div class="checkbox">
-	  				<label>
-					  <input type="checkbox" value="">Brotherhood Committee
+					  <input id="people-show-brotherhood" type="checkbox" value="">Brotherhood Committee
 					</label>
 				</div>			
 		    </div>
@@ -114,17 +116,19 @@
 				<table class="table table-hover">
   					<thead>
   						<th>Name</th>
+  						<th>Position</th>
   						<th>Year</th>
   						<th>Email</th>
   						<th>Phone #</th>
   						<th>Groups</th>
   					</thead>
   					<tbody>
-  						<tr>
+  						<tr class="people people-actives people-exec people-brotherhood-committee">
   							<td>Adam Smith</td>	
+  							<td>Emminent Commander</td>
   							<td>Senior</td>
   							<td>adam.smith@yahoo.com</td>
-  							<td>970-111-111</td>
+  							<td>970-111-1111</td>
   							<td>
   								<div class="btn-group">
   								    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
@@ -138,8 +142,9 @@
     							</div>
   							</td>
   						</tr>
-  						<tr>
+  						<tr class="people people-candidates people-lead-committee">
   							<td>Brody Beowulf</td>	
+  							<td></td>
   							<td>Freshman</td>
   							<td>bbwolf@gmail.com</td>
   							<td>970-432-1234</td>
@@ -156,8 +161,9 @@
     							</div>
   							</td>
   						</tr>
-  						<tr>
-  							<td>Captain Sparrow</td>	
+  						<tr class="people people-actives people-exec">
+  							<td>Captain Sparrow</td>
+  							<td>Lieutenant Commander</td>	
   							<td>Sophomore</td>
   							<td>sparrowjack@msn.com</td>
   							<td>421-987-6461</td>
@@ -168,13 +174,15 @@
       									<span class="caret"></span>
     								</button>
 	  								<ul class="dropdown-menu">
-	      								<li><a href="#">Candidates</a></li>
+	      								<li><a href="#">Actives</a></li>
+	      								<li><a href="#">Exec</a></li>
 	    							</ul>
     							</div>
   							</td>
   						</tr>
-  						<tr>
+  						<tr class="people people-actives people-exec people-lead-committee">
   							<td>Draco Malfoy</td>	
+  							<td>LEAD Chairman</td>
   							<td>Junior</td>
   							<td>draco@yahoo.com</td>
   							<td>345-456-1111</td>
@@ -187,14 +195,16 @@
 	  								<ul class="dropdown-menu">
 	      								<li><a href="#">Actives</a></li>
 	      								<li><a href="#">Exec</a></li>
+	      								<li><a href="#">LEAD Committee</a></li>
 	    							</ul>
     							</div>
   							</td>
   						</tr>
-  						<tr>
+  						<tr class="people people-candidates people-brotherhood-committee">
   							<td>Ron Weasley</td>	
+  							<td></td>
   							<td>Junior</td>
-  							<td>weasle@yahoo.com</td>
+  							<td>weasley@yahoo.com</td>
   							<td>980-348-4789</td>
   							<td>
   								<div class="btn-group">
@@ -203,14 +213,15 @@
       									<span class="caret"></span>
     								</button>
 	  								<ul class="dropdown-menu">
-	      								<li><a href="#">Actives</a></li>
-	      								<li><a href="#">Exec</a></li>
+	      								<li><a href="#">Candidates</a></li>
+	      								<li><a href="#">Brotherhood Committee</a></li>
 	    							</ul>
     							</div>
   							</td>
   						</tr>
-  						<tr>
+  						<tr class="people people-actives people-exec">
   							<td>Harry Potter</td>	
+  							<td></td>
   							<td>Junior</td>
   							<td>potter@gmail.com</td>
   							<td>786-845-3432</td>
@@ -228,8 +239,9 @@
     							</div>
   							</td>
   						</tr>
-  						<tr>
-  							<td>Hermione Granger</td>	
+  						<tr class="people people-actives people-exec">
+  							<td>Hermione Granger</td>
+  							<td>Chaplain</td>	
   							<td>Junior</td>
   							<td>hgranger@yahoo.com</td>
   							<td>492-587-0000</td>
