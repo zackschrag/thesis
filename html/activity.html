@@ -9,6 +9,8 @@
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="../lib/bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>	
+
+	<script src="../js/activity.js"></script>
 </head>
 <body>
 	<div class="navbar navbar-static-top" role="navigation">
@@ -63,12 +65,12 @@
 							</div>
 							<div class="col-xs-3 col-sm-3 col-md-3">
 				          		<div class="navbar-right vertical-center">
-									<button type="button" class="menu btn btn-default btn-lg">
-										<span class="glyphicon glyphicon-align-justify"></span>
-									</button>
 									<button type="button" class="menu notification btn btn-default btn-lg">
 										<span class="glyphicon glyphicon-exclamation-sign">
 										</span>
+									</button>
+									<button type="button" class="menu btn btn-default btn-lg">
+										<span class="glyphicon glyphicon-align-justify"></span>
 									</button>
 				          		</div><!-- /.navbar-right -->
 			          		</div><!-- /.col-md -->
@@ -86,29 +88,49 @@
 	    		</label>
 	    		<div class="checkbox">
 	  				<label>
-					  <input type="checkbox" value="">Show all
+					  <input id="activity-show-all" type="checkbox" value="">All
 					</label>
 				</div>
 				<div class="checkbox">
 	  				<label>
-					  <input type="checkbox" value="">Actives
+					  <input id="activity-show-actives" type="checkbox" value="">Actives
 					</label>
 				</div>
 				<div class="checkbox">
 	  				<label>
-					  <input type="checkbox" value="">Exec
+					  <input id="activity-show-exec" type="checkbox" value="">Exec
 					</label>
 				</div>
 				<div class="checkbox">
 	  				<label>
-					  <input type="checkbox" value="">LEAD Committee
+					  <input id="activity-show-lead" type="checkbox" value="">LEAD Committee
 					</label>
 				</div>
 				<div class="checkbox">
 	  				<label>
-					  <input type="checkbox" value="">Brotherhood Committee
+					  <input id="activity-show-brotherhood" type="checkbox" value="">Brotherhood Committee
 					</label>
-				</div>			
+				</div>
+				<div class="filter-by">			
+					<label class="panel-title">
+		    			Filter By:
+		    		</label>
+		    		<div class="checkbox">
+		  				<label>
+						  <input id="activity-show-text" type="checkbox" value="">Text
+						</label>
+					</div>
+					<div class="checkbox">
+		  				<label>
+						  <input id="activity-show-email" type="checkbox" value="">Email
+						</label>
+					</div>
+					<div class="checkbox">
+		  				<label>
+						  <input id="activity-show-updates" type="checkbox" value="">Updates
+						</label>
+					</div>
+				</div>
 		    </div>
 	    	<div class="col-xs-9 col-sm-9 col-md-9">
 	    		<label class="content-title">
@@ -116,7 +138,7 @@
 	    		</label>
 	    		<div class="row">
 	    			<div class="col-xs-12 col-sm-12 col-md-12">
-	    				<div class="activity-card message-card">
+	    				<div class="activity-card message-card activity-text activity-email">
 	    		  			<div class="row">
 	    		  				<div class="message-info col-xs-12 col-sm-12 col-md-12">
 	    		  					<span class="message-card-meta">12:42pm</span>
@@ -138,7 +160,7 @@
 	    		</div>
 	    		<div class="row">
 	    			<div class="col-xs-12 col-sm-12 col-md-12">
-	    				<div class="activity-card message-card">
+	    				<div class="activity-card message-card  activity-text">
 	    		  			<div class="row">
 	    		  				<div class="message-info col-xs-12 col-sm-12 col-md-12">
 	    		  					<span class="message-card-meta">3/9/14 - 9:02pm</span>
@@ -160,7 +182,7 @@
 	    		</div>
 	    		<div class="row">
 	    			<div class="col-xs-12 col-sm-12 col-md-12">
-	    				<div class="activity-card message-card">
+	    				<div class="activity-card message-card activity-email">
 	    		  			<div class="row">
 	    		  				<div class="message-info col-xs-12 col-sm-12 col-md-12">
 									<span class="message-card-meta">3/8/14 10:00pm</span>

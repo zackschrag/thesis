@@ -109,6 +109,10 @@ a:hover {
 	box-shadow: 1px 1px #000;
 }
 
+.page-nav-item:hover {
+	opacity: 1.0;
+}
+
 .page-nav-item .glyphicon {
 	font-size: 25px;
 	color: #000;
@@ -119,6 +123,9 @@ a:hover {
 	margin-top: 10px;
 	border: solid #ccc 1px;
 	border-radius: 5px;
+	max-height: 300px;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 .message-sent {
@@ -130,8 +137,9 @@ a:hover {
 
 .vertical-line {
 	float: left;
-	height: 150px;
+	height: 300px;
 	border-left: 1px solid #ccc;
+	width: 3px;
 }
 
 #send-message {
@@ -176,7 +184,7 @@ a:hover {
 }
 
 .calendar-day {
-	height: 160px;
+	height: 120px;
 	width: 13%;
 	border: solid 1px #ccc;
 	margin-right: 2px;
@@ -188,6 +196,14 @@ a:hover {
 .calendar-day:hover {
 	background-color: #f7f7f7;
 	cursor: pointer;
+}
+
+#add-event-day {
+	margin-top: 7px;
+}
+
+.space {
+	height: 7px;
 }
 
 .day-number {
@@ -277,8 +293,21 @@ a:hover {
 
 }
 
+.filter-by {
+	margin-top: 30px;
+}
+
 .file-text {
+	cursor: pointer;
 	color: black;
+}
+
+.file-text:hover {
+	color: blue;
+}
+
+#files-view .modal-body {
+	height: 70vh;
 }
 
 .panel-body {

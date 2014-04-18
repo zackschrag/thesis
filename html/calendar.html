@@ -66,12 +66,12 @@
 							</div>
 							<div class="col-xs-3 col-sm-3 col-md-3">
 				          		<div class="navbar-right vertical-center">
-									<button type="button" class="menu btn btn-default btn-lg">
-										<span class="glyphicon glyphicon-align-justify"></span>
-									</button>
 									<button type="button" class="menu notification btn btn-default btn-lg">
 										<span class="glyphicon glyphicon-exclamation-sign">
 										</span>
+									</button>
+									<button type="button" class="menu btn btn-default btn-lg">
+										<span class="glyphicon glyphicon-align-justify"></span>
 									</button>
 				          		</div><!-- /.navbar-right -->
 			          		</div><!-- /.col-md -->
@@ -90,7 +90,7 @@
 	    		</label>
 	    		<div class="checkbox">
 	  				<label>
-					  <input type="checkbox" id="calendar-show-all" value="" checked>Show all
+					  <input type="checkbox" id="calendar-show-all" value="" checked>All
 					</label>
 				</div>
 				<div class="checkbox">
@@ -281,10 +281,11 @@
 						      				</div>
 						      			</div>
 						      		</div>
-						      		<div class="btn-group pull-left">
+						      		<div id="add-event-day" class="btn-group pull-right">
 										<button type="button" data-dismiss="modal" data-toggle="modal" data-target="#calendar-add-event-modal" class="btn btn-sm btn-primary">Add Event</button>
 									</div>
 						      	</div>
+						      	<div class="space"></div>
 						      	<div class="modal-footer">
 						        	<button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
 						      	</div>

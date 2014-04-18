@@ -65,12 +65,12 @@
 							</div>
 							<div class="col-xs-3 col-sm-3 col-md-3">
 				          		<div class="navbar-right vertical-center">
-									<button type="button" class="menu btn btn-default btn-lg">
-										<span class="glyphicon glyphicon-align-justify"></span>
-									</button>
 									<button type="button" class="menu notification btn btn-default btn-lg">
 										<span class="glyphicon glyphicon-exclamation-sign">
 										</span>
+									</button>
+									<button type="button" class="menu btn btn-default btn-lg">
+										<span class="glyphicon glyphicon-align-justify"></span>
 									</button>
 				          		</div><!-- /.navbar-right -->
 			          		</div><!-- /.col-md -->
@@ -162,7 +162,7 @@
 							<input type="checkbox" value="">Email
 						</label>
 		  				<label class="checkbox-inline">
-							<input type="checkbox" value="">Wall Post
+							<input type="checkbox" value="">Activity
 						</label>						
 					</span>
 					<div class="select-recipients">
@@ -171,22 +171,27 @@
 								<h5>Groups</h5>
 								<div class="checkbox">
 					  				<label>
-									  <input type="checkbox" value="">Actives
+									  <input id="all-box" type="checkbox" value="">All
 									</label>
 								</div>
 								<div class="checkbox">
 					  				<label>
-									  <input type="checkbox" value="">Exec
+									  <input id="actives-box" type="checkbox" value="">Actives
 									</label>
 								</div>
 								<div class="checkbox">
 					  				<label>
-									  <input type="checkbox" value="">LEAD Committee
+									  <input id="exec-box" type="checkbox" value="">Exec
 									</label>
 								</div>
 								<div class="checkbox">
 					  				<label>
-									  <input type="checkbox" value="">Brotherhood Committee
+									  <input id="lead-box" type="checkbox" value="">LEAD Committee
+									</label>
+								</div>
+								<div class="checkbox">
+					  				<label>
+									  <input id="brotherhood-box" type="checkbox" value="">Brotherhood Committee
 									</label>
 								</div>	
 							</div>
@@ -194,40 +199,75 @@
 							</div>
 							<div class="col-xs-6 col-sm-6 col-md-6">
 								<div class="input-group">
-								    <input type="text" class="form-control">
+								    <input id="messages-search-box" type="text" class="form-control">
 								    <span class="input-group-btn">
 								       	<button class="btn btn-default" type="button">
 								       	<span class="glyphicon glyphicon-search"></span>
 								       	</button>
 								    </span>
 								</div><!-- /input-group -->
-								<div class="checkbox">
+								<div id="adamjohnson" class="checkbox name-div actives-div exec-div lead-div brotherhood-div">
 					  				<label>
-									  <input type="checkbox" value="">Adam Johnson
+									  <input class="box messages-name messages-actives messages-exec messages-lead messages-brotherhood" type="checkbox" value="">Adam Johnson
 									</label>
 								</div>
-								<div class="checkbox">
+								<div id="adamjameson" class="checkbox name-div exec-div actives-div">
 					  				<label>
-									  <input type="checkbox" value="">Adam Jameson
+									  <input class="box  messages-name messages-exec messages-actives" type="checkbox" value="">Adam Jameson
 									</label>
 								</div>
-								<div class="checkbox">
+								<div class="checkbox name-div exec-div actives-div">
 					  				<label>
-									  <input type="checkbox" value="">Bob Barker
+									  <input class="box  messages-name messages-exec messages-actives" type="checkbox" value="">Bob Barker
 									</label>
 								</div>
-								<div class="checkbox">
+								<div class="checkbox name-div lead-div actives-div">
 					  				<label>
-									  <input type="checkbox" value="">Barack Obama
+									  <input class="box  messages-name messages-lead messages-actives" type="checkbox" value="">Calvin Hobbes
 									</label>
-								</div>		
+								</div>
+								<div class="checkbox name-div brotherhood-div actives-div">
+					  				<label>
+									  <input class="box messages-name messages-brotherhood messages-actives" type="checkbox" value="">Chris Robinson
+									</label>
+								</div>
+								<div class="checkbox name-div brotherhood-div">
+					  				<label>
+									  <input class="box messages-name messages-brotherhood" type="checkbox" value="">Daniel Theissen
+									</label>
+								</div>
+								<div class="checkbox name-div actives-div">
+					  				<label>
+									  <input class="box messages-name messages-actives" type="checkbox" value="">Mike Williams
+									</label>
+								</div>
+								<div class="checkbox name-div exec-div">
+					  				<label>
+									  <input class="box messages-name messages-exec" type="checkbox" value="">Nathan Horne
+									</label>
+								</div>
+								<div class="checkbox name-div lead-div">
+					  				<label>
+									  <input class="box messages-name messages-lead" type="checkbox" value="">Peter Griffin
+									</label>
+								</div>
+								<div class="checkbox name-div actives-div">
+					  				<label>
+									  <input class="box messages-name messages-actives" type="checkbox" value="">Stephen Stephenson
+									</label>
+								</div>
+								<div class="checkbox name-div actives-div">
+					  				<label>
+									  <input class="box messages-name messages-actives" type="checkbox" value="">Zebra Stripes
+									</label>
+								</div>
 							</div>
 						</div><!-- /.row -->
 					</div>
 					<button type="submit" class="btn btn-primary" id="send-message">
 						Send
 					</button>
-					<div class="message-sent alert alert-success" id="message-sent-success">	Message to Adam Johnson was sent successfully!
+					<div class="message-sent alert alert-success" id="message-sent-success">	Message was sent successfully!
 					</div>
 				</form>
 
